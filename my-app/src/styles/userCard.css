@@ -12,6 +12,7 @@
   padding: 50px 30px;
   align-items: center;
 }
+
 #userDetails h5 {
   margin: 8px 0px;
 }
@@ -21,4 +22,29 @@
   color: white;
   border: none;
   border-radius: 20px;
+}
+
+#dropdown {
+  padding: 15px 35px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+}
+#dropdown p {
+  font-size: 14px;
+  margin: 0;
+}
+#dropdown h5 {
+  font-size: 15px;
+  margin: 23px 0px 10px 0px;
+}
+
+.contactDetails {
+  display: flex;
+}
+.contactDetails > div {
+  width: 40%;
 }
