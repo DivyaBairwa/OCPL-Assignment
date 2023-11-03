@@ -1,0 +1,24 @@
+#userCard {
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+
+#userDetails {
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22% 12%;
+  padding: 50px 30px;
+  align-items: center;
+}
+#userDetails h5 {
+  margin: 8px 0px;
+}
+#userDetails button {
+  padding: 7px;
+  background-color: #fb3e3e;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
