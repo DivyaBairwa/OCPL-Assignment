@@ -3,6 +3,7 @@
   justify-content: center;
   margin-bottom: 20px;
 }
+
 .btn {
   border: none;
   background: none;
@@ -10,7 +11,21 @@
   cursor: pointer;
   font-size: 16px;
 }
+
 .activePage {
   background-color: #fb3e3e;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
 }
